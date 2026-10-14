@@ -1,0 +1,15 @@
+{
+  "name": "ai-usage-records",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "refresh:codex": "node scripts/refresh-codex.mjs",
+    "test": "node --test",
+    "demo:load": "node scripts/load-demo.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

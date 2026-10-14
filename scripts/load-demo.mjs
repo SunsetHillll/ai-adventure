@@ -1,0 +1,14 @@
+import {readFile,copyFile} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {JsonStore} from '../lib/store.mjs';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+const dataFile=path.join(root,'data','app.json');
+const store=new JsonStore(dataFile);
+const state=await store.read();
+if(state.users.length!==1)throw Error('请先运行 npm start，在网页中创建一个本地账号，再加载模拟数据。');
+const user=state.users[0];
+const demo=JSON.parse(await readFile(path.join(root,'demo','records.json'),'utf8'));
+await copyFile(dataFile,`${dataFile}.before-demo-${Date.now()}.bak`);
+await store.update(data=>{data.records=data.records.filter(r=>!(r.userId===user.id&&r.demo));for(const r of demo)data.records.push({...r,userId:user.id});});
+console.log('已加载 5 个模拟项目和 20 个关卡。原有真实记录保留；刷新网页即可查看。');

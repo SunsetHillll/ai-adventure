@@ -1,0 +1,2142 @@
+[
+  {
+    "id": "3abad10f-0947-4d5a-a77c-48d951f7f63e",
+    "kind": "project",
+    "source": "manual",
+    "title": "像素宠物乐园",
+    "category": "产品开发",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "note": "截图演示模拟数据",
+    "demo": true,
+    "analysisStale": false,
+    "analysis": {
+      "domain": {
+        "name": "游戏开发"
+      },
+      "summary": "模拟项目战果",
+      "generalSkills": [
+        {
+          "id": "task-design",
+          "level": "实践",
+          "evidence": "拆解目标并明确验收",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "prompting",
+          "level": "熟练",
+          "evidence": "迭代提示与输出结构",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "context",
+          "level": "入门",
+          "evidence": "组织上下文与资料",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "tools",
+          "level": "实践",
+          "evidence": "串联工具完成交付",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "steering",
+          "level": "熟练",
+          "evidence": "根据反馈调整路线",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "verification",
+          "level": "入门",
+          "evidence": "对照结果完成核验",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        },
+        {
+          "id": "reuse",
+          "level": "实践",
+          "evidence": "沉淀模板复用",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        }
+      ],
+      "professionalSkills": [
+        {
+          "name": "游戏开发实践",
+          "level": "实践",
+          "evidence": "模拟能力证据",
+          "conversationIds": [
+            "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+            "b0efbe68-f417-4590-baae-a819dcd449e0",
+            "3f36f378-d43c-40fb-a351-669a50e807a4",
+            "e28f8910-f673-42ff-ae2c-27ccefa392e5"
+          ]
+        }
+      ],
+      "conversations": [
+        {
+          "id": "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "角色造型试炼",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "b0efbe68-f417-4590-baae-a819dcd449e0",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "互动玩法开局",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "3f36f378-d43c-40fb-a351-669a50e807a4",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "场景寻宝",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "d9783a0a-5bf8-4688-8bad-91ed6e086d72",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "角色造型试炼",
+    "projectId": "3abad10f-0947-4d5a-a77c-48d951f7f63e",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "0382a8f1-fe5b-48af-843e-15bae371ddc0",
+        "startedAt": "2026-10-14T01:00:00.000Z",
+        "completedAt": "2026-10-14T01:00:45.000Z",
+        "durationMs": 90000,
+        "objective": "模拟：角色造型试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 4200,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "479ad0dd-563e-42b0-a863-c06089ae8f8d",
+        "startedAt": "2026-10-14T01:01:00.000Z",
+        "completedAt": "2026-10-14T01:01:45.000Z",
+        "durationMs": 115000,
+        "objective": "模拟：角色造型试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 4900,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "98291159-10c1-40e5-936c-41d4baf434e4",
+        "startedAt": "2026-10-14T01:02:00.000Z",
+        "completedAt": "2026-10-14T01:02:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：角色造型试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "b0efbe68-f417-4590-baae-a819dcd449e0",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "互动玩法开局",
+    "projectId": "3abad10f-0947-4d5a-a77c-48d951f7f63e",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "ef3cf53c-1f16-430b-87ae-aa8c71e0d390",
+        "startedAt": "2026-10-14T02:00:00.000Z",
+        "completedAt": "2026-10-14T02:00:45.000Z",
+        "durationMs": 115000,
+        "objective": "模拟：互动玩法开局",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 4900,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "2f263178-3c4e-461a-92b7-c53007bcc3b6",
+        "startedAt": "2026-10-14T02:01:00.000Z",
+        "completedAt": "2026-10-14T02:01:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：互动玩法开局",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "c6af08a2-4551-4f8a-9cf8-af01934565c7",
+        "startedAt": "2026-10-14T02:02:00.000Z",
+        "completedAt": "2026-10-14T02:02:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：互动玩法开局",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "173f353a-c3c2-46d9-a491-a28706ee6af0",
+        "startedAt": "2026-10-14T02:03:00.000Z",
+        "completedAt": "2026-10-14T02:03:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：互动玩法开局",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "3f36f378-d43c-40fb-a351-669a50e807a4",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "场景寻宝",
+    "projectId": "3abad10f-0947-4d5a-a77c-48d951f7f63e",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "eccb6f5c-d52a-4404-8ead-57381c277a5e",
+        "startedAt": "2026-10-14T03:00:00.000Z",
+        "completedAt": "2026-10-14T03:00:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：场景寻宝",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "3ed231b6-3477-4ba9-987e-190ab79460de",
+        "startedAt": "2026-10-14T03:01:00.000Z",
+        "completedAt": "2026-10-14T03:01:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：场景寻宝",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "ff320d14-2966-46c0-9097-2ef71c5e9e15",
+        "startedAt": "2026-10-14T03:02:00.000Z",
+        "completedAt": "2026-10-14T03:02:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：场景寻宝",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "1d665e4f-a2f0-4037-97a8-21f52721469e",
+        "startedAt": "2026-10-14T03:03:00.000Z",
+        "completedAt": "2026-10-14T03:03:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：场景寻宝",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "49380db5-7910-40a0-94ba-1b1142549100",
+        "startedAt": "2026-10-14T03:04:00.000Z",
+        "completedAt": "2026-10-14T03:04:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：场景寻宝",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "e28f8910-f673-42ff-ae2c-27ccefa392e5",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "动画精修",
+    "projectId": "3abad10f-0947-4d5a-a77c-48d951f7f63e",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "f8accb48-df0f-4256-8cc4-a80fdeab6ca3",
+        "startedAt": "2026-10-14T04:00:00.000Z",
+        "completedAt": "2026-10-14T04:00:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "25a2668a-7911-46e5-bcec-387312e143a3",
+        "startedAt": "2026-10-14T04:01:00.000Z",
+        "completedAt": "2026-10-14T04:01:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "90c39663-cde0-43f8-aec5-6997001271bc",
+        "startedAt": "2026-10-14T04:02:00.000Z",
+        "completedAt": "2026-10-14T04:02:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "c43fba03-75f9-4eaa-b14e-98818615f048",
+        "startedAt": "2026-10-14T04:03:00.000Z",
+        "completedAt": "2026-10-14T04:03:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "cb799e87-f553-4e7a-aa05-ce17041e1da2",
+        "startedAt": "2026-10-14T04:04:00.000Z",
+        "completedAt": "2026-10-14T04:04:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "128b3af9-6994-480f-b4be-af06d03b2611",
+        "startedAt": "2026-10-14T04:05:00.000Z",
+        "completedAt": null,
+        "durationMs": 290000,
+        "objective": "模拟：动画精修",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "49c1fecd-9452-4d9b-8306-dad1cd319015",
+    "kind": "project",
+    "source": "manual",
+    "title": "AI工作流工坊",
+    "category": "产品开发",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "note": "截图演示模拟数据",
+    "demo": true,
+    "analysisStale": false,
+    "analysis": {
+      "domain": {
+        "name": "智能体开发"
+      },
+      "summary": "模拟项目战果",
+      "generalSkills": [
+        {
+          "id": "task-design",
+          "level": "实践",
+          "evidence": "拆解目标并明确验收",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "prompting",
+          "level": "熟练",
+          "evidence": "迭代提示与输出结构",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "context",
+          "level": "入门",
+          "evidence": "组织上下文与资料",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "tools",
+          "level": "实践",
+          "evidence": "串联工具完成交付",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "steering",
+          "level": "熟练",
+          "evidence": "根据反馈调整路线",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "verification",
+          "level": "入门",
+          "evidence": "对照结果完成核验",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        },
+        {
+          "id": "reuse",
+          "level": "实践",
+          "evidence": "沉淀模板复用",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        }
+      ],
+      "professionalSkills": [
+        {
+          "name": "智能体开发实践",
+          "level": "实践",
+          "evidence": "模拟能力证据",
+          "conversationIds": [
+            "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+            "392d0bc8-22ba-4454-a895-1ffd48340789",
+            "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+            "4d767c89-918b-4664-91f8-7942e7bebc8f"
+          ]
+        }
+      ],
+      "conversations": [
+        {
+          "id": "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "提示词试炼",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "392d0bc8-22ba-4454-a895-1ffd48340789",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "工具链搭建",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "记忆系统探索",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3cc4b49d-de17-4d2e-92fb-d9d73dcadeb2",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "提示词试炼",
+    "projectId": "49c1fecd-9452-4d9b-8306-dad1cd319015",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "67c87c51-f96e-4342-8c1e-85756609cf53",
+        "startedAt": "2026-10-14T01:00:00.000Z",
+        "completedAt": "2026-10-14T01:00:45.000Z",
+        "durationMs": 115000,
+        "objective": "模拟：提示词试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 4900,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "0190b9e4-c08f-4211-adaa-e347799f69f6",
+        "startedAt": "2026-10-14T01:01:00.000Z",
+        "completedAt": "2026-10-14T01:01:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：提示词试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "7d56e3b0-3d1b-4937-8da9-f264a7158301",
+        "startedAt": "2026-10-14T01:02:00.000Z",
+        "completedAt": "2026-10-14T01:02:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：提示词试炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "392d0bc8-22ba-4454-a895-1ffd48340789",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "工具链搭建",
+    "projectId": "49c1fecd-9452-4d9b-8306-dad1cd319015",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "1745bc57-e526-49af-93ec-32b79efa5c72",
+        "startedAt": "2026-10-14T02:00:00.000Z",
+        "completedAt": "2026-10-14T02:00:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：工具链搭建",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "5fc1af00-c0cb-4963-92db-6901e5ac05a7",
+        "startedAt": "2026-10-14T02:01:00.000Z",
+        "completedAt": "2026-10-14T02:01:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：工具链搭建",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "256078a1-cdb4-4599-848a-2fd0cfcce8c2",
+        "startedAt": "2026-10-14T02:02:00.000Z",
+        "completedAt": "2026-10-14T02:02:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：工具链搭建",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "f2b02a9c-a53d-499d-9246-0a71ab619c72",
+        "startedAt": "2026-10-14T02:03:00.000Z",
+        "completedAt": "2026-10-14T02:03:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：工具链搭建",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "0413fa5f-c80e-4248-b84e-d5ebec2b3c8e",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "记忆系统探索",
+    "projectId": "49c1fecd-9452-4d9b-8306-dad1cd319015",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "21643c48-1716-408b-ad73-28fa9c1f6b32",
+        "startedAt": "2026-10-14T03:00:00.000Z",
+        "completedAt": "2026-10-14T03:00:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：记忆系统探索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "81db5293-9f5c-4b2e-8b7c-aad02758372e",
+        "startedAt": "2026-10-14T03:01:00.000Z",
+        "completedAt": "2026-10-14T03:01:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：记忆系统探索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "546ad6bf-2c92-42ff-a8b8-d5154c956880",
+        "startedAt": "2026-10-14T03:02:00.000Z",
+        "completedAt": "2026-10-14T03:02:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：记忆系统探索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "4a80a568-f30d-49fe-8f56-cda183961103",
+        "startedAt": "2026-10-14T03:03:00.000Z",
+        "completedAt": "2026-10-14T03:03:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：记忆系统探索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "6f10ff40-517d-43f7-a388-b322730ca09b",
+        "startedAt": "2026-10-14T03:04:00.000Z",
+        "completedAt": "2026-10-14T03:04:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：记忆系统探索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "4d767c89-918b-4664-91f8-7942e7bebc8f",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "自动化通关",
+    "projectId": "49c1fecd-9452-4d9b-8306-dad1cd319015",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "e5a777b0-daa0-4b21-b73f-719e9a379f2f",
+        "startedAt": "2026-10-14T04:00:00.000Z",
+        "completedAt": "2026-10-14T04:00:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "63bb0d06-2783-4f79-b9a6-d5639a42f242",
+        "startedAt": "2026-10-14T04:01:00.000Z",
+        "completedAt": "2026-10-14T04:01:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "c8e09527-2ab9-4669-bd3d-4e3b495e3b53",
+        "startedAt": "2026-10-14T04:02:00.000Z",
+        "completedAt": "2026-10-14T04:02:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "bd846624-2c85-4c2d-a4b1-4bd8c9476801",
+        "startedAt": "2026-10-14T04:03:00.000Z",
+        "completedAt": "2026-10-14T04:03:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "337b0cb9-de73-429f-8d5b-52bf77ca8fa0",
+        "startedAt": "2026-10-14T04:04:00.000Z",
+        "completedAt": "2026-10-14T04:04:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "fe0e7633-2822-4993-8fbe-d6c3c93fa8b9",
+        "startedAt": "2026-10-14T04:05:00.000Z",
+        "completedAt": null,
+        "durationMs": 315000,
+        "objective": "模拟：自动化通关",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "ae80c9e8-6c71-4322-a33f-c612d8f8cde8",
+    "kind": "project",
+    "source": "manual",
+    "title": "灵感内容工作室",
+    "category": "产品开发",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "note": "截图演示模拟数据",
+    "demo": true,
+    "analysisStale": false,
+    "analysis": {
+      "domain": {
+        "name": "内容运营"
+      },
+      "summary": "模拟项目战果",
+      "generalSkills": [
+        {
+          "id": "task-design",
+          "level": "实践",
+          "evidence": "拆解目标并明确验收",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "prompting",
+          "level": "熟练",
+          "evidence": "迭代提示与输出结构",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "context",
+          "level": "入门",
+          "evidence": "组织上下文与资料",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "tools",
+          "level": "实践",
+          "evidence": "串联工具完成交付",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "steering",
+          "level": "熟练",
+          "evidence": "根据反馈调整路线",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "verification",
+          "level": "入门",
+          "evidence": "对照结果完成核验",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        },
+        {
+          "id": "reuse",
+          "level": "实践",
+          "evidence": "沉淀模板复用",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        }
+      ],
+      "professionalSkills": [
+        {
+          "name": "内容运营实践",
+          "level": "实践",
+          "evidence": "模拟能力证据",
+          "conversationIds": [
+            "7cded677-b084-4d15-9ab2-f9df9f088172",
+            "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+            "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+            "bf13a4f1-da28-4985-a6be-1abb6f9a171d"
+          ]
+        }
+      ],
+      "conversations": [
+        {
+          "id": "7cded677-b084-4d15-9ab2-f9df9f088172",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "选题雷达",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "短视频脚本",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "品牌视觉",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "7cded677-b084-4d15-9ab2-f9df9f088172",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "选题雷达",
+    "projectId": "ae80c9e8-6c71-4322-a33f-c612d8f8cde8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "17c5fc41-a8fa-4a93-a12b-5a67f355d1bf",
+        "startedAt": "2026-10-14T01:00:00.000Z",
+        "completedAt": "2026-10-14T01:00:45.000Z",
+        "durationMs": 140000,
+        "objective": "模拟：选题雷达",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 5600,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "cdd0be30-d79f-4313-8ba0-e54428816fbe",
+        "startedAt": "2026-10-14T01:01:00.000Z",
+        "completedAt": "2026-10-14T01:01:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：选题雷达",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "44b9d9c7-8538-470f-91fd-ea843e4ccd87",
+        "startedAt": "2026-10-14T01:02:00.000Z",
+        "completedAt": "2026-10-14T01:02:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：选题雷达",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "e5e1166b-8d2b-42d0-8d56-9ab25a80cfdc",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "短视频脚本",
+    "projectId": "ae80c9e8-6c71-4322-a33f-c612d8f8cde8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "70c7d8bb-787d-4dac-b38f-9f9ea07cd57d",
+        "startedAt": "2026-10-14T02:00:00.000Z",
+        "completedAt": "2026-10-14T02:00:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：短视频脚本",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "4f2e1924-2099-4dba-bd46-c3969d26e805",
+        "startedAt": "2026-10-14T02:01:00.000Z",
+        "completedAt": "2026-10-14T02:01:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：短视频脚本",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "8a28f734-c08e-4991-8990-419fd6014e5f",
+        "startedAt": "2026-10-14T02:02:00.000Z",
+        "completedAt": "2026-10-14T02:02:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：短视频脚本",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "4e2e6d51-862b-4050-bf3e-6b63bd41ef51",
+        "startedAt": "2026-10-14T02:03:00.000Z",
+        "completedAt": "2026-10-14T02:03:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：短视频脚本",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "9cba9805-8950-4a6d-b3c9-2624655fd0b0",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "品牌视觉",
+    "projectId": "ae80c9e8-6c71-4322-a33f-c612d8f8cde8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "3e814dca-5425-4eca-9ad6-344bee16a99b",
+        "startedAt": "2026-10-14T03:00:00.000Z",
+        "completedAt": "2026-10-14T03:00:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：品牌视觉",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "b36ed08d-e8ee-4f22-b7ec-3cc7e04ff19e",
+        "startedAt": "2026-10-14T03:01:00.000Z",
+        "completedAt": "2026-10-14T03:01:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：品牌视觉",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "2fb2e075-42d5-4171-bf1b-028bd3dc3c78",
+        "startedAt": "2026-10-14T03:02:00.000Z",
+        "completedAt": "2026-10-14T03:02:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：品牌视觉",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "598f5cf9-21e9-4998-89a6-3618b4f5893b",
+        "startedAt": "2026-10-14T03:03:00.000Z",
+        "completedAt": "2026-10-14T03:03:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：品牌视觉",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "c3d430a5-6746-4a6a-adef-0ba9d1df227e",
+        "startedAt": "2026-10-14T03:04:00.000Z",
+        "completedAt": "2026-10-14T03:04:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：品牌视觉",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "bf13a4f1-da28-4985-a6be-1abb6f9a171d",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "内容复盘",
+    "projectId": "ae80c9e8-6c71-4322-a33f-c612d8f8cde8",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "ce00a3b1-6916-4fa6-a1b5-ba9b77efcdb0",
+        "startedAt": "2026-10-14T04:00:00.000Z",
+        "completedAt": "2026-10-14T04:00:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "5a68901e-3ca5-485c-8319-d292a740a2da",
+        "startedAt": "2026-10-14T04:01:00.000Z",
+        "completedAt": "2026-10-14T04:01:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "b531cb30-e187-4034-ac39-68d132839f1f",
+        "startedAt": "2026-10-14T04:02:00.000Z",
+        "completedAt": "2026-10-14T04:02:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "b1b930ec-74a2-4f63-8bda-c993395e905d",
+        "startedAt": "2026-10-14T04:03:00.000Z",
+        "completedAt": "2026-10-14T04:03:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "ef298fed-1c33-4ddf-8c14-87e13204a02b",
+        "startedAt": "2026-10-14T04:04:00.000Z",
+        "completedAt": "2026-10-14T04:04:45.000Z",
+        "durationMs": 315000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "6203fec0-e8d7-4732-bd01-9d2cc0aff9d6",
+        "startedAt": "2026-10-14T04:05:00.000Z",
+        "completedAt": null,
+        "durationMs": 340000,
+        "objective": "模拟：内容复盘",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11200,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "6fdb2512-370a-42fe-9c06-3836d1eb90e8",
+    "kind": "project",
+    "source": "manual",
+    "title": "知识探索计划",
+    "category": "产品开发",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "note": "截图演示模拟数据",
+    "demo": true,
+    "analysisStale": false,
+    "analysis": {
+      "domain": {
+        "name": "研究学习"
+      },
+      "summary": "模拟项目战果",
+      "generalSkills": [
+        {
+          "id": "task-design",
+          "level": "实践",
+          "evidence": "拆解目标并明确验收",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "prompting",
+          "level": "熟练",
+          "evidence": "迭代提示与输出结构",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "context",
+          "level": "入门",
+          "evidence": "组织上下文与资料",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "tools",
+          "level": "实践",
+          "evidence": "串联工具完成交付",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "steering",
+          "level": "熟练",
+          "evidence": "根据反馈调整路线",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "verification",
+          "level": "入门",
+          "evidence": "对照结果完成核验",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        },
+        {
+          "id": "reuse",
+          "level": "实践",
+          "evidence": "沉淀模板复用",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        }
+      ],
+      "professionalSkills": [
+        {
+          "name": "研究学习实践",
+          "level": "实践",
+          "evidence": "模拟能力证据",
+          "conversationIds": [
+            "efed3b05-f5c0-4843-82c3-88ee42a28369",
+            "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+            "cc1b24d5-486f-40f0-be66-03e36fbff654",
+            "d54600b1-5587-4ac9-b686-1b92640f9edc"
+          ]
+        }
+      ],
+      "conversations": [
+        {
+          "id": "efed3b05-f5c0-4843-82c3-88ee42a28369",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "行业地图",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "资料检索",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "cc1b24d5-486f-40f0-be66-03e36fbff654",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "观点提炼",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "efed3b05-f5c0-4843-82c3-88ee42a28369",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "行业地图",
+    "projectId": "6fdb2512-370a-42fe-9c06-3836d1eb90e8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "d96810d2-0d24-4a9c-b0f6-921c67448329",
+        "startedAt": "2026-10-14T01:00:00.000Z",
+        "completedAt": "2026-10-14T01:00:45.000Z",
+        "durationMs": 165000,
+        "objective": "模拟：行业地图",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 6300,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "7b75f0b6-34bc-40f5-8fa4-dee4931f90b0",
+        "startedAt": "2026-10-14T01:01:00.000Z",
+        "completedAt": "2026-10-14T01:01:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：行业地图",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "4c1c200b-5c2c-4090-bb4f-27225f311736",
+        "startedAt": "2026-10-14T01:02:00.000Z",
+        "completedAt": "2026-10-14T01:02:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：行业地图",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "d5b4d61a-ca03-4aee-af91-f2f5516bea33",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "资料检索",
+    "projectId": "6fdb2512-370a-42fe-9c06-3836d1eb90e8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "0647bf55-7952-41bc-a05f-c55d7fa251f1",
+        "startedAt": "2026-10-14T02:00:00.000Z",
+        "completedAt": "2026-10-14T02:00:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：资料检索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "a3abd827-5926-4fe5-b1cb-1ce31ab50875",
+        "startedAt": "2026-10-14T02:01:00.000Z",
+        "completedAt": "2026-10-14T02:01:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：资料检索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "21764f64-a2e8-407f-b412-bbbba7b8dacc",
+        "startedAt": "2026-10-14T02:02:00.000Z",
+        "completedAt": "2026-10-14T02:02:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：资料检索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "d3112cec-2244-45d5-ad8a-66376e418bf0",
+        "startedAt": "2026-10-14T02:03:00.000Z",
+        "completedAt": "2026-10-14T02:03:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：资料检索",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "cc1b24d5-486f-40f0-be66-03e36fbff654",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "观点提炼",
+    "projectId": "6fdb2512-370a-42fe-9c06-3836d1eb90e8",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "1c2e35f0-1672-41fe-8c8b-6495529fcd01",
+        "startedAt": "2026-10-14T03:00:00.000Z",
+        "completedAt": "2026-10-14T03:00:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：观点提炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "d5fff91c-08cc-41ce-8e36-c6d59dad2758",
+        "startedAt": "2026-10-14T03:01:00.000Z",
+        "completedAt": "2026-10-14T03:01:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：观点提炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "17375e41-46e6-4fb3-904e-ab8abf603d09",
+        "startedAt": "2026-10-14T03:02:00.000Z",
+        "completedAt": "2026-10-14T03:02:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：观点提炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "7d6a9b90-92de-4672-b3f0-4bbc053a95ae",
+        "startedAt": "2026-10-14T03:03:00.000Z",
+        "completedAt": "2026-10-14T03:03:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：观点提炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "f68c7144-46e3-42b4-b819-c697ffac2248",
+        "startedAt": "2026-10-14T03:04:00.000Z",
+        "completedAt": "2026-10-14T03:04:45.000Z",
+        "durationMs": 315000,
+        "objective": "模拟：观点提炼",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "d54600b1-5587-4ac9-b686-1b92640f9edc",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "研究简报",
+    "projectId": "6fdb2512-370a-42fe-9c06-3836d1eb90e8",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "27852ced-065c-4893-8405-25c9c4bddbeb",
+        "startedAt": "2026-10-14T04:00:00.000Z",
+        "completedAt": "2026-10-14T04:00:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "c0ab6b0d-1c44-4e2b-8027-1063b3524c4f",
+        "startedAt": "2026-10-14T04:01:00.000Z",
+        "completedAt": "2026-10-14T04:01:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "80a8692e-4bb1-4c64-9033-43bb8a74cff6",
+        "startedAt": "2026-10-14T04:02:00.000Z",
+        "completedAt": "2026-10-14T04:02:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "60fd410c-d909-4670-8195-f79185bf65ba",
+        "startedAt": "2026-10-14T04:03:00.000Z",
+        "completedAt": "2026-10-14T04:03:45.000Z",
+        "durationMs": 315000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "a5772ba5-dd25-4f37-be9b-1b4dc2c4d72a",
+        "startedAt": "2026-10-14T04:04:00.000Z",
+        "completedAt": "2026-10-14T04:04:45.000Z",
+        "durationMs": 340000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11200,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "df862fe9-6e07-4bca-8696-779e88f659dc",
+        "startedAt": "2026-10-14T04:05:00.000Z",
+        "completedAt": null,
+        "durationMs": 365000,
+        "objective": "模拟：研究简报",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11900,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "6850ce91-5b98-415f-8af9-4bb3be69def4",
+    "kind": "project",
+    "source": "manual",
+    "title": "产品应用实验室",
+    "category": "产品开发",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "note": "截图演示模拟数据",
+    "demo": true,
+    "analysisStale": false,
+    "analysis": {
+      "domain": {
+        "name": "应用开发"
+      },
+      "summary": "模拟项目战果",
+      "generalSkills": [
+        {
+          "id": "task-design",
+          "level": "实践",
+          "evidence": "拆解目标并明确验收",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "prompting",
+          "level": "熟练",
+          "evidence": "迭代提示与输出结构",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "context",
+          "level": "入门",
+          "evidence": "组织上下文与资料",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "tools",
+          "level": "实践",
+          "evidence": "串联工具完成交付",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "steering",
+          "level": "熟练",
+          "evidence": "根据反馈调整路线",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "verification",
+          "level": "入门",
+          "evidence": "对照结果完成核验",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        },
+        {
+          "id": "reuse",
+          "level": "实践",
+          "evidence": "沉淀模板复用",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        }
+      ],
+      "professionalSkills": [
+        {
+          "name": "应用开发实践",
+          "level": "实践",
+          "evidence": "模拟能力证据",
+          "conversationIds": [
+            "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+            "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+            "4a5c7ba8-d177-4712-a1a9-129179b73280",
+            "2615f447-b4c3-49aa-a659-06063958a88d"
+          ]
+        }
+      ],
+      "conversations": [
+        {
+          "id": "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "首页重构",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "移动端适配",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        },
+        {
+          "id": "4a5c7ba8-d177-4712-a1a9-129179b73280",
+          "progress": 100,
+          "summary": "模拟结算：完成方案设计与成果验证。",
+          "game": {
+            "levelTitle": "接口联调",
+            "efficiency": "swift",
+            "rewards": [
+              {
+                "name": "可复用方案",
+                "description": "模拟宝藏"
+              }
+            ],
+            "encounters": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "6cc981a9-dcb5-4778-8ea6-2e8d3c6c2839",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "首页重构",
+    "projectId": "6850ce91-5b98-415f-8af9-4bb3be69def4",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "5e370c8b-0586-48dd-bea8-99a05e2b813e",
+        "startedAt": "2026-10-14T01:00:00.000Z",
+        "completedAt": "2026-10-14T01:00:45.000Z",
+        "durationMs": 190000,
+        "objective": "模拟：首页重构",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7000,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "2160dd7e-893b-4ed8-b9d4-5f2fb91b7a9b",
+        "startedAt": "2026-10-14T01:01:00.000Z",
+        "completedAt": "2026-10-14T01:01:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：首页重构",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "1e049ee6-1abb-4398-bdc5-c0043766c9ea",
+        "startedAt": "2026-10-14T01:02:00.000Z",
+        "completedAt": "2026-10-14T01:02:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：首页重构",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "1b227165-6634-4749-a2a5-4a6749ccf5a3",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "移动端适配",
+    "projectId": "6850ce91-5b98-415f-8af9-4bb3be69def4",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "ac1a894a-f2b0-4461-9c02-7604cf0854b5",
+        "startedAt": "2026-10-14T02:00:00.000Z",
+        "completedAt": "2026-10-14T02:00:45.000Z",
+        "durationMs": 215000,
+        "objective": "模拟：移动端适配",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 7700,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "d1baf966-156e-42b9-b726-1bbe8eff4c9d",
+        "startedAt": "2026-10-14T02:01:00.000Z",
+        "completedAt": "2026-10-14T02:01:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：移动端适配",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "44590967-42e1-48aa-9543-5edb876d65c9",
+        "startedAt": "2026-10-14T02:02:00.000Z",
+        "completedAt": "2026-10-14T02:02:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：移动端适配",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "848a2db5-f927-496c-b6ef-a7bfaf0e704f",
+        "startedAt": "2026-10-14T02:03:00.000Z",
+        "completedAt": "2026-10-14T02:03:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：移动端适配",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "4a5c7ba8-d177-4712-a1a9-129179b73280",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "接口联调",
+    "projectId": "6850ce91-5b98-415f-8af9-4bb3be69def4",
+    "status": "已完成",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "7a42ec0d-9e19-4328-b2a9-1a5be450cd49",
+        "startedAt": "2026-10-14T03:00:00.000Z",
+        "completedAt": "2026-10-14T03:00:45.000Z",
+        "durationMs": 240000,
+        "objective": "模拟：接口联调",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 8400,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "bdd3cf0c-4244-4b15-8161-e684daed4a8c",
+        "startedAt": "2026-10-14T03:01:00.000Z",
+        "completedAt": "2026-10-14T03:01:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：接口联调",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "b403dc3b-c40d-4309-a950-bbd0bbd7d3ea",
+        "startedAt": "2026-10-14T03:02:00.000Z",
+        "completedAt": "2026-10-14T03:02:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：接口联调",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "ede68703-9498-463b-8c5f-20a9af714356",
+        "startedAt": "2026-10-14T03:03:00.000Z",
+        "completedAt": "2026-10-14T03:03:45.000Z",
+        "durationMs": 315000,
+        "objective": "模拟：接口联调",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "430eafdc-8f9b-4023-b822-d377b56baef9",
+        "startedAt": "2026-10-14T03:04:00.000Z",
+        "completedAt": "2026-10-14T03:04:45.000Z",
+        "durationMs": 340000,
+        "objective": "模拟：接口联调",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11200,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  },
+  {
+    "id": "2615f447-b4c3-49aa-a659-06063958a88d",
+    "kind": "conversation",
+    "source": "manual",
+    "title": "体验验收",
+    "projectId": "6850ce91-5b98-415f-8af9-4bb3be69def4",
+    "status": "进行中",
+    "startedAt": "2026-10-14T01:00:00.000Z",
+    "turns": [
+      {
+        "id": "3ec5fb75-af86-4dcf-b706-4fca5f84624f",
+        "startedAt": "2026-10-14T04:00:00.000Z",
+        "completedAt": "2026-10-14T04:00:45.000Z",
+        "durationMs": 265000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9100,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "9702b4ff-d444-4137-b8fe-d784f0a7a3fd",
+        "startedAt": "2026-10-14T04:01:00.000Z",
+        "completedAt": "2026-10-14T04:01:45.000Z",
+        "durationMs": 290000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 9800,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "cf96e3d4-e230-4a6d-b0d4-09c55f4ab550",
+        "startedAt": "2026-10-14T04:02:00.000Z",
+        "completedAt": "2026-10-14T04:02:45.000Z",
+        "durationMs": 315000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 10500,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "aeadd7af-c461-4dc5-b8fb-6c03dea96fc2",
+        "startedAt": "2026-10-14T04:03:00.000Z",
+        "completedAt": "2026-10-14T04:03:45.000Z",
+        "durationMs": 340000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11200,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "2961eacc-7e82-4c2f-a7bb-6ab7c6b4caa4",
+        "startedAt": "2026-10-14T04:04:00.000Z",
+        "completedAt": "2026-10-14T04:04:45.000Z",
+        "durationMs": 365000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 11900,
+          "cached_input_tokens": 800
+        }
+      },
+      {
+        "id": "6fd67c09-e6b5-4881-aa8e-8be992188573",
+        "startedAt": "2026-10-14T04:05:00.000Z",
+        "completedAt": null,
+        "durationMs": 390000,
+        "objective": "模拟：体验验收",
+        "result": "模拟成果：形成可复用方案与可验证产物。",
+        "usage": {
+          "total_tokens": 12600,
+          "cached_input_tokens": 800
+        }
+      }
+    ],
+    "note": "模拟数据 · 仅用于界面展示",
+    "demo": true
+  }
+]

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>星图冒险 · AI 能力世界</title>
+  <link rel="stylesheet" href="/adventure.css">
+</head>
+<body>
+  <div id="auth" class="auth-screen hidden">
+    <div class="auth-land" aria-hidden="true"><span class="pixel-star">✦</span><span class="tiny-island"></span></div>
+    <form id="authForm" class="auth-card">
+      <span class="overline">THE ADVENTURE BEGINS</span><h1 id="authTitle">进入星图冒险</h1>
+      <p id="authHint">你的世界正等着点亮。</p>
+      <label>冒险者名称<input id="username" autocomplete="username" maxlength="32" required></label>
+      <label>密码<input id="password" type="password" minlength="8" autocomplete="current-password" required></label>
+      <p id="authError" class="form-error" role="alert"></p>
+      <button class="game-button gold" id="authSubmit" type="submit">进入世界</button>
+    </form>
+  </div>
+
+  <div id="app" class="app-shell hidden">
+    <aside class="side-rail">
+      <div class="brand"><span class="brand-glyph">✦</span><span><strong>星图冒险</strong><small>AI ABILITY QUEST</small></span></div>
+      <div class="rail-label">旅程目录</div>
+      <nav class="main-nav" aria-label="主导航">
+        <button data-view="map" class="active"><span class="nav-icon">✧</span><span>世界地图</span><b>01</b></button>
+        <button data-view="today"><span class="nav-icon">◉</span><span>今日冒险</span><b>02</b></button>
+        <button data-view="levels"><span class="nav-icon">▣</span><span>关卡图鉴</span><b>03</b></button>
+        <button data-view="week"><span class="nav-icon">✦</span><span>本周战报</span><b>04</b></button>
+      </nav>
+      <div class="companion-wrap">
+        <div id="companionBubble" class="companion-bubble" role="status" aria-live="polite"></div>
+        <button id="companion" class="rail-companion" type="button" data-mood="idle" aria-label="和星匠互动，查看旅程提示"><span class="companion-face"><span class="companion-expression">•ᴗ•</span></span><span class="companion-body"><span class="companion-arm left"></span><span class="companion-arm right"></span></span><span class="companion-spark" aria-hidden="true">✦</span></button>
+      </div>
+      <div class="rail-foot"><strong>星匠提示</strong><p id="railHint">先接上 Codex，新的关卡就会落到地图上。</p></div>
+    </aside>
+
+    <main class="main-stage">
+      <header class="topbar">
+        <div class="breadcrumb"><span class="glow-dot"></span><strong id="crumb">世界地图</strong><span id="accountName"></span></div>
+        <div class="top-actions">
+          <button id="soundToggle" class="subtle-button" type="button" aria-pressed="false">♫ 音乐关</button>
+          <button id="syncButton" class="subtle-button" type="button">↻ 接入 Codex</button>
+          <button id="exportButton" class="subtle-button secondary-action" type="button">导出存档</button>
+          <button id="addButton" class="subtle-button secondary-action" type="button">＋ 补充旅程</button>
+          <button id="logoutButton" class="subtle-button secondary-action" type="button">退出</button>
+        </div>
+      </header>
+      <div class="stage-content">
+        <div id="notice" class="notice hidden" role="status"></div>
+
+        <section id="view-map" class="view active">
+          <div class="map-hero">
+            <div class="hero-copy"><span class="overline">WORLD SELECT · 你的冒险正在展开</span><h1>AI探险，<br><em>看见自己的成长。</em></h1><p>选一片世界，踏上项目路线。闯过的关卡会留下宝藏，也可能带来新装备。</p><div class="hero-actions"><button id="settleAll" class="game-button gold" type="button">✦ 开启未结算宝箱</button><span id="mapSettleHint">宝藏等待揭晓</span></div></div>
+            <div class="hero-landscape" aria-hidden="true"><span class="sun"></span><span class="cloud cloud-one"></span><span class="cloud cloud-two"></span><span class="floating-gem">✦</span><span class="hill hill-back"></span><span class="hill hill-front"></span><span class="floating-platform"></span></div>
+          </div>
+          <div class="section-head"><div><span class="overline">CHOOSE A WORLD</span><h2>选择世界</h2></div><span id="worldCount" class="count-pill">0 个世界</span></div>
+          <div id="worldCards" class="world-cards"></div>
+          <section id="worldDetail" class="world-detail hidden" aria-live="polite"></section>
+          <div class="map-lower"><section class="glass-panel"><div class="panel-head"><div><span class="overline">SKILL ATLAS</span><h2>星匠的装备册</h2></div><span class="panel-stamp">7 件核心装备</span></div><div id="skillAtlas" class="skill-atlas"></div></section><section class="glass-panel map-status"><div class="panel-head"><div><span class="overline">WORLD PROGRESS</span><h2>旅程总览</h2></div></div><div id="mapStatus"></div></section></div>
+        </section>
+
+        <section id="view-today" class="view">
+          <div class="section-title-row"><div><span class="overline">TODAY'S QUEST</span><h1 id="todayTitle">今日冒险</h1><p id="todaySubtitle">今天的战斗、宝藏和成长。</p></div><input id="todayPicker" type="date" aria-label="选择日期"></div>
+          <div id="todayHero" class="daily-hero"></div>
+          <div id="todayMetrics" class="metric-grid"></div>
+          <div class="daily-grid"><section class="glass-panel"><div class="panel-head"><div><span class="overline">THE PATH YOU TOOK</span><h2>今日闯关</h2></div></div><div id="todayTrail" class="trail-list"></div></section><div class="daily-side"><section class="glass-panel"><div class="panel-head"><div><span class="overline">REWARDS & GROWTH</span><h2>今日收获</h2></div></div><div id="todayRewards"></div></section><section class="glass-panel"><div class="panel-head"><div><span class="overline">NEXT MOVE</span><h2>下一步冒险</h2></div></div><div id="todayNext"></div></section></div></div>
+        </section>
+
+        <section id="view-levels" class="view">
+          <div class="section-title-row"><div><span class="overline">LEVEL ARCHIVE</span><h1>关卡图鉴</h1><p>选择项目路线，查看每关的战斗和结算。</p></div><span id="levelTotal" class="count-pill">0 个关卡</span></div>
+          <div class="archive-layout"><aside id="projectRail" class="project-rail" aria-label="项目路线"></aside><div class="archive-main"><div id="archiveHeader" class="archive-header"></div><div id="levelGrid" class="level-grid"></div></div></div>
+        </section>
+
+        <section id="view-week" class="view">
+          <div class="section-title-row"><div><span class="overline">WEEKLY QUEST LOG</span><h1>本周战报</h1><p id="weekRange">这一周留下的足迹和下周的目标。</p></div><div class="week-actions"><input id="weekPicker" type="date" aria-label="选择周内日期"><button id="settleWeek" class="game-button gold" type="button">✦ 生成本周结算</button></div></div>
+          <div id="weekHero" class="weekly-hero"></div>
+          <div id="weekMetrics" class="metric-grid"></div>
+          <div class="weekly-grid"><section class="glass-panel"><div class="panel-head"><div><span class="overline">QUESTS PLAYED</span><h2>这一周推进的关卡</h2></div></div><div id="weekLevels"></div></section><section class="glass-panel"><div class="panel-head"><div><span class="overline">LEVEL UP</span><h2>能力成长</h2></div></div><div id="weekGrowth"></div></section></div>
+          <div class="weekly-grid"><section class="glass-panel"><div class="panel-head"><div><span class="overline">UNFINISHED CHALLENGES</span><h2>尚未攻克</h2></div></div><div id="weekChallenges"></div></section><section class="glass-panel"><div class="panel-head"><div><span class="overline">NEXT WEEK</span><h2>下周路线</h2></div></div><div id="weekNext"></div></section></div>
+        </section>
+      </div>
+    </main>
+    <div class="mobile-companion-wrap"><div id="mobileCompanionBubble" class="companion-bubble" role="status" aria-live="polite"></div><button id="mobileCompanion" class="rail-companion" type="button" data-mood="idle" aria-label="和星匠互动，查看旅程提示"><span class="companion-face"><span class="companion-expression">•ᴗ•</span></span><span class="companion-body"><span class="companion-arm left"></span><span class="companion-arm right"></span></span><span class="companion-spark" aria-hidden="true">✦</span></button></div>
+    <button id="settlementDock" class="settlement-dock hidden" type="button" aria-label="查看结算进度"><span class="dock-star">✦</span><span id="settlementDockText">战果结算中</span><span class="dock-arrow">↗</span></button>
+    <nav class="mobile-nav" aria-label="移动端导航"><button data-view="map" class="active">世界</button><button data-view="today">今日</button><button data-view="levels">关卡</button><button data-view="week">周报</button></nav>
+  </div>
+
+  <div id="levelOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="levelDialogTitle"><div class="dialog level-dialog"><div class="dialog-head"><div><span class="overline">LEVEL CLEAR FILE</span><h2 id="levelDialogTitle">关卡结算</h2></div><button data-close="levelOverlay" class="icon-button" type="button" aria-label="关闭">×</button></div><div id="levelDetail"></div></div></div>
+
+  <div id="analysisOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="analysisTitle"><div class="dialog consent-dialog"><div class="dialog-head"><div><span class="overline">AI SETTLEMENT</span><h2 id="analysisTitle">开启自动结算</h2></div><button data-close="analysisOverlay" class="icon-button" type="button" aria-label="关闭">×</button></div><div class="dialog-body"><p id="analysisScope"></p><p>结算会通过本机 Codex CLI 将下列摘要发送给 Codex 服务并消耗模型用量。不会发送完整对话和工具输出。</p><details><summary>查看将发送的摘要</summary><pre id="analysisPreview"></pre></details><label class="consent-row"><input id="analysisConsent" type="checkbox">我已查看发送范围，同意这次自动结算。</label><div class="dialog-actions"><button data-close="analysisOverlay" class="subtle-button" type="button">稍后再说</button><button id="confirmAnalysis" class="game-button gold" type="button" disabled>开始结算</button></div></div></div></div>
+
+  <div id="settlementOverlay" class="overlay settlement-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="settlementTitle"><div class="dialog settlement-dialog"><div class="settlement-scene" aria-hidden="true"><span class="settlement-sun"></span><span class="settlement-cloud cloud-a"></span><span class="settlement-cloud cloud-b"></span><span class="settlement-star star-a">✦</span><span class="settlement-star star-b">✧</span><span class="settlement-chest"><i></i></span><span class="settlement-ground"></span></div><div class="settlement-content"><span class="overline">THE REWARD TRAIL</span><h2 id="settlementTitle">星匠正在整理战果</h2><p id="settlementMessage" class="settlement-message" role="status" aria-live="polite">关卡的收获正沿着星路回来。</p><div class="settlement-stats"><strong id="settlementCount">0 / 0 条路线</strong><span id="settlementElapsed">已等待 0:00</span></div><div id="settlementRoute" class="settlement-route" aria-label="各路线结算状态"></div><div class="settlement-current"><span class="settlement-orb">✦</span><div><small id="settlementPhase">准备旅程资料</small><strong id="settlementCurrent">即将出发</strong></div></div><div id="settlementSteps" class="settlement-steps" aria-label="当前路线的结算阶段"></div><p id="settlementFootnote" class="settlement-footnote">模型研判耗时随关卡数量和记录长度变化；完成一条路线，就会立即保存一份战果。</p><div class="dialog-actions"><button id="settlementHide" class="subtle-button" type="button">继续探索</button><button id="settlementDone" class="game-button gold hidden" type="button">查看战果</button></div></div></div></div>
+
+  <div id="editorOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="editorTitle"><div class="dialog edit-dialog"><div class="dialog-head"><div><span class="overline">JOURNEY NOTE</span><h2 id="editorTitle">补充旅程</h2></div><button data-close="editorOverlay" class="icon-button" type="button" aria-label="关闭">×</button></div><form id="recordForm" class="dialog-body editor-form"><div class="form-grid"><label>记录类型<select id="recordKind"><option value="project">项目路线</option><option value="task">支线任务</option><option value="conversation">对话关卡</option></select></label><label>名称<input id="recordTitle" maxlength="160" required></label></div><div class="form-grid"><label id="projectField">所属项目<select id="recordProject"></select></label><label id="taskField">所属支线<select id="recordTask"></select></label></div><div class="form-grid" id="manualFields"><label>日期<input id="recordDate" type="date"></label><label>时间<input id="recordTime" type="time"></label><label id="durationField">记录用时（分钟）<input id="recordDuration" type="number" min="1" max="999"></label></div><div class="form-grid"><label>主题<select id="recordCategory"><option>未分类</option><option>产品开发</option><option>内容创作</option><option>研究学习</option><option>问题排查</option><option>其他</option></select></label><label id="statusField">进度<select id="recordStatus"><option value="进行中">继续冒险</option><option value="已完成">旅程完成</option><option value="待跟进">暂时受阻</option><option value="待回顾">待整理</option></select></label></div><label>旅程笔记<textarea id="recordNote" maxlength="2000" placeholder="可选：补充背景或下一步"></textarea></label><div class="dialog-actions"><button id="deleteRecord" class="subtle-button danger hidden" type="button">删除</button><button data-close="editorOverlay" class="subtle-button" type="button">取消</button><button id="saveRecord" class="game-button gold" type="submit">保存</button></div></form></div></div>
+
+  <script type="module" src="/adventure.js"></script>
+  <script src="/sound.js" defer></script>
+</body>
+</html>
